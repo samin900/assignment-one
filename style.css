@@ -1,0 +1,68 @@
+body{
+    overflow-x: hidden;
+}
+
+.banner {
+    background-image: url('./resources/Banner Image.png');
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: contain;
+    margin-top: 50px;
+    margin-right: 140px;
+    margin-left: 140px;
+    margin-bottom: 0px;
+    
+}
+.banner-greeting {
+    color: #FFF;
+text-align: center;
+font-family: 'Merriweather', sans-serif;
+font-size: 32px;
+font-weight: 400;
+padding-top: 115px;
+}
+
+.banner-content {
+    color: #FFF;
+text-align: center;
+font-family: 'Merriweather', sans-serif;
+font-size: 72px;
+font-weight: 900;
+padding-bottom: 177px;
+}
+
+/* main body */
+
+.offer {
+    color: #F00;
+text-align: center;
+font-family: Inter, sans-serif ;
+font-size: 88px;
+font-weight: 700;
+margin-top: 50px;
+margin-bottom: 0px;
+}
+.offer-text{
+    color: #F00;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+.text-two{
+    color: #070211;
+text-align: center;
+font-family: Inter, sans-serif;
+font-size: 48px;
+font-weight: 700;
+margin-top: 0px;
+margin-bottom: 50px;
+}
+.new-year-photo img {
+height: 400px;
+width: 700px;
+display: block;
+margin: auto
+}
+
