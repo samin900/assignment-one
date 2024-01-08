@@ -173,10 +173,9 @@ border: none;
   
 }
 
-.div {
-    padding: 30px;
+.div-text-section{
+  text-align: left;
 }
-
 .orange-text {
     color: #F00;
     font-family: Inter, sans-serif;
@@ -211,4 +210,114 @@ padding: 20px;
     color: #F00;
     font-family: Inter, sans-serif;
     font-size: 48px;
+}
+
+/* section-six */
+.section-six {
+    margin: 100px 115px 0px 115px;
+}
+
+
+.section-six-text{
+    color: #F00;
+font-family: Inter, sans-serif;
+font-size: 24px;
+font-weight: 500;
+}
+
+.section-six-text-two{
+    color: #070211;
+font-family: Merriweather, sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+text-transform: capitalize;
+margin-top: 0;
+}
+.section-six-para{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter, sans-serif;
+font-size: 15px;
+}
+
+.showcase{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 24px;
+margin-top: 50px
+  
+}
+.showcase > img {
+    width: 325px;
+    height: 350px;
+    /* margin: 100px 115px 0px 115px; */
+}
+
+/* section-seven */
+
+.seven{
+    margin: 100px 115px 0px 115px;
+    background-color: rgba(255, 0, 0, 0.05) ;
+    border-radius: 16px;
+}
+.div-seven{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0 200px 0 200px;
+ 
+}
+.div-seven > img{
+    padding-top: 50px;
+}
+
+.seven-header{
+
+    color: #070211;
+text-align: center;
+font-family: Merriweather, sans-serif;
+font-size: 48px;
+font-weight: 900;
+}
+.seven-text{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter, sans-serif;
+font-size: 15px;
+font-weight: 400;
+}
+
+.email{
+    width: 400px;
+height: 60px;
+border-radius: 50px 0px 0px 50px ;
+background: #FFF;
+border: 0;
+margin-left: 0;
+text-align: center;
+font-family: Inter, serif;
+color: rgba(7, 2, 17, 0.30);
+}
+.submit{
+    width: 200px;
+height: 60px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-family: Inter,  sans-serif;
+font-size: 20px;
+border: 0;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    
 }
