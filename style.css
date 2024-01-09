@@ -115,6 +115,11 @@
     margin-top: 20px;
 }
 
+.button-one:hover {
+    background-color: rgb(117, 62, 62);
+
+}
+
 .button-one {
     color: #FFF;
     font-family: Inter;
@@ -155,6 +160,11 @@
 
 .orange {
     color: #F00;
+}
+
+.orange-button:hover {
+    background-color: rgb(201, 40, 40);
+
 }
 
 .orange-button {
@@ -334,6 +344,12 @@
     margin-top: 50px;
 }
 
+.showcase>img:hover {
+    background-color: #F00;
+    border: 1px solid #F00;
+    border-radius: 15px;
+}
+
 .showcase {
     display: flex;
     justify-content: center;
@@ -397,6 +413,10 @@
     color: rgba(7, 2, 17, 0.30);
 }
 
+.email:hover {
+    background-color: #f0ecec;
+}
+
 .submit {
     width: 200px;
     height: 60px;
@@ -407,6 +427,11 @@
     font-family: Inter, sans-serif;
     font-size: 20px;
     border: 0;
+}
+
+.submit:hover {
+    background-color: rgb(201, 40, 40);
+
 }
 
 .form {
@@ -447,9 +472,17 @@ footer {
 
 }
 
-.social-media>img {
+.social-media>a {
     width: 50px;
     height: 50px;
+    display: flex;
+}
+
+.social-media>a:hover {
+
+    border: 1px solid #ffffff;
+    border-radius: 180%;
+
 }
 
 .social-media {
