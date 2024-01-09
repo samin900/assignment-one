@@ -1,5 +1,5 @@
-*{
-   margin: 0;
+* {
+    margin: 0;
     padding: 0;
 }
 
@@ -10,20 +10,17 @@ body {
 }
 
 .banner {
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./resources/Banner Image.png');
+    background-image: url('./resources/Banner Image.png');
 
     background-repeat: no-repeat;
     height: 600px;
     background-size: contain;
-    margin-top: 50px;
-    margin-right: 115px;
-    margin-left: 115px;
-    margin-bottom: 0px;
+    margin: 50px 115px 0 115px;
     border-radius: 16px;
     padding-left: 200px;
     padding-right: 200px;
     overflow: hidden;
-
+    filter: brightness(90%);
 
 }
 
@@ -34,6 +31,7 @@ body {
     font-size: 25px;
     font-weight: 400;
     padding-top: 115px;
+
 }
 
 .banner-content {
@@ -45,7 +43,8 @@ body {
     padding-bottom: 177px;
 }
 
-/* main body */
+
+/* section-one */
 
 .offer {
     color: #F00;
@@ -118,6 +117,7 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    margin-top: 20px;
 }
 
 .button-one {
@@ -129,6 +129,7 @@ body {
     text-transform: uppercase;
     background-color: #070211;
     border: none;
+    margin-top: 30px;
 }
 
 .section-two-img img {
@@ -154,6 +155,7 @@ body {
     line-height: 56px;
     text-transform: capitalize;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .orange {
@@ -225,6 +227,86 @@ body {
     font-size: 48px;
 }
 
+/* section-five */
+
+
+.section-five {
+    margin: 100px 115px 0px 115px;
+    ;
+}
+
+.section-five-text {
+    text-align: center;
+}
+
+.five-header {
+    color: #070211;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.five-header-two {
+    color: #070211;
+    font-family: Merriweather, sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holyday {
+    color: #F00;
+}
+
+.five-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.five-img {
+    margin-top: -605px;
+
+}
+
+.pic-one>img {
+    height: 450px;
+    width: 600px;
+    position: relative;
+    top: 815px;
+    right: 0px;
+}
+
+.pic-three>img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 525px;
+    top: 322px;
+    z-index: 1;
+}
+
+.pic-two {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    position: relative;
+    left: 634px;
+
+}
+
+.discount-pic {
+    background-image: url(./resources/Rectangle\ 2.png);
+    height: 230px;
+    width: 1030px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    border-radius: 15px 0px 15px 15px;
+}
+
+
 /* section-six */
 .section-six {
     margin: 100px 115px 0px 115px;
@@ -242,7 +324,6 @@ body {
     color: #070211;
     font-family: Merriweather, sans-serif;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
     text-transform: capitalize;
     margin-top: 0;
@@ -347,6 +428,7 @@ body {
 
 footer {
     background-color: #070211;
+    margin-top: 100px;
 }
 
 .footer-text {
@@ -367,10 +449,10 @@ footer {
     height: 1px;
     background: rgba(199, 67, 67, 0.15);
     margin: 0 auto;
-    
+
 }
 
-.social-media > img {
+.social-media>img {
     width: 50px;
     height: 50px;
 }
@@ -380,10 +462,11 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 25px;
-padding-top: 50px;
-padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.copyright{
+
+.copyright {
     display: flex;
     justify-content: space-between;
     padding-bottom: 100px;
