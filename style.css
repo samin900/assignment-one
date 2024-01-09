@@ -4,11 +4,6 @@
 }
 
 
-
-body {
-    overflow-x: hidden;
-}
-
 .banner {
     background-image: url('./resources/Banner Image.png');
 
